@@ -12,38 +12,45 @@
   <body>
     <center>
     <h2>REGISTERATION FORM</h2>
-
     <form action="HTML lesson">
-        <label for="email">Email</label><br>
-        <input type="email"><br>
-        <label for="password">Password</label><br>
-        <input type="password"><br>
-        <label for="name">Name</label><br>
-        <input type="text"><br>
-        <label for="name">Lastname</label><br>
-        <input type="text"><br>
-        <label for="date">Date of birth</label><br>
-        <input type="date"><br>
-        <label for="number">Phone Number</label><br>
-        <input type="number"><br>
+        <label for="email"><strong>Email</strong></label><br />
+        <input type="email"><br />
+        <label for="password"><strong>Password</strong></label><br />
+        <input type="password"><br />
+        <label for="name"><strong>Name</strong></label><br />
+        <input type="text"><br />
+        <label for="name"><strong>Lastname</strong></label><br />
+        <input type="text"><br />
+        <label for="date"><strong>Date of Birth</strong></label><br />
+        <input type="date"><br />
+        <label for="number"><strong>Phone Number</strong></label><br />
+        <input type="number"><br />
         <h3>Choose a plan</h3>
-        <label for="text">Free Plan</label>
-        <input type="select"><br>
-        <label for="text">3 in Plan</label>
-        <input type="radio"><br>
-        <label for="text">Pro Plan</label>
-        <input type="checkbox"><br>
+        <label for="text"><strong>Free Plan:</strong></label>
+        <select name="free">
+          <option value="none"></option>
+          <option value="free">Free plane</option>
+        </select> <br />
+        <label for="text"><strong>3 in Plans:</strong></label>
+        <select name="price">
+          <option value="none"></option>
+          <option value="$100">$100 Plan</option>
+          <option value="$200">$200 Plan</option>
+          <option value="$300">$300 Plan</option>
+        </select><br />
+        <label for="text"><strong>Pro Plan:</strong></label>
+        <input type="checkbox"><br />
         <p>
-            <label for="number">Card Number</label>
+            <label for="number"><strong>Credit Card Number:</strong></label>
             <input type="number">
-            <label for="number">CVC</label>
-            <input type="number"><br>
+            <label for="number"><strong>CVC:</strong></label>
+            <input type="number"><br />
             <p>
-            <label for="date">Expiration Date</label><br>
-            <input type="date"><br>
+            <label for="date"><strong>Expiration Date</strong></label><br />
+            <input type="date"><br />
             </p>
-            <label for="Address">Billing Address</label>
-            <input type="text"><br>
+            <label for="Address"><strong>Billing Address:</strong></label>
+            <input type="text"><br />
             <p>
                 <button>Submit</button>
             </p>
