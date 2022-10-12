@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-9" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=0.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Lesson</title>
+  </head>
+  <body>
+    <center>
+    <h2>REGISTERATION FORM</h2>
+    <form action="HTML lesson"
+        <label for="email"><strong>Email</strong>*<abbr></label><br />
+        <input id="email" name="email" type="email" required><br />
+        <label for="password"><strong>Password</strong></label><br />
+        <input id="password" name="password" type="password" required><br />
+        <label for="name"><strong>Name</strong></label><br />
+        <input id="name" name="name" type="text" pattern="[A-Za-z]+" minlength="2" maxlength="10" required><br />
+        <label for="lastname"><strong>Lastname</strong></label><br />
+        <input id="lastname" name="lastname" type="text" pattern="[A-Za-z]+" minlength="2" maxlength="15" required><br />
+        <label for="date"><strong>Date of Birth</strong></label><br />
+        <input id="date" name="date" type="date" required><br />
+        <label for="number"><strong>Phone Number</strong></label><br />
+        <input id="number" name="number" type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br />
+        <h3>Choose a plan</h3>
+        <label for="text"><strong>Free Plan:</strong></label>
+        <select name="free" required>
+          <option value="none"></option>
+          <option value="free">Free plane</option>
+        </select> <br />
+        <label for="text"><strong>3 in Plans:</strong></label>
+        <select name="price" required>
+          <option value="none"></option>
+          <option value="$100">$100 Plan</option>
+          <option value="$200">$200 Plan</option>
+          <option value="$300">$300 Plan</option>
+        </select><br />
+        <label for="text"><strong>Pro Plan:</strong></label>
+        <input class="onoffswitch-checkbox" id="text" name="pro_plan" type="checkbox" required><br />
+        <p>
+            <label for="number"><strong>Credit Card Number:</strong></label>
+            <input id="number" maxlength="15" name="credit_card_number" pattern="[0-9]+" type="text" required>
+            <label for="number"><strong>CVC:</strong></label>
+            <input id="number" maxlength="3" name="cvc" pattern="[0-9]+" type="text" required><br />
+            <p>
+            <label for="date"><strong>Expiration Date</strong></label><br />
+            <input id="date" name="expiration_date" type="date" required><br />
+            </p>
+            <label for="address"><strong>Billing Address:</strong></label>
+            <input id="address" name="billing_address" type="text" required><br />
+            <p>
+                <button>Submit</button>
+            </p>
+        </p>
+
+    </form>
+    </center>
+
+ </body>
+ </html>
