@@ -10,16 +10,18 @@
     <title>HTML Lesson</title>
   </head>
   <body>
+    <h1>Attributes</h1>
     <form>
-        <button>Disabled</button>
+        <button disabled style="display:grid">Submit</button>
         <br />
-        <label for="name">Name:</label>
-        <input type="number" name=" name"> 
-        <br />  
-        <label for checkbox>Checkbox:</label>
-        <input type="checkbox" name="Checkbox" class="onoffswitch-checkbox" checked id="inline">
+        <label for="range">0-100:</label>
+        <input type="number" step="2" min="0" max="100" style="display: grid;"> 
         <br />
-        <input type="date">
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" alue="1" checked>
+        <br /><br />
+        <label for="date">Date:</label>
+        <input type="date" style="display:grid">
     </form>
   </body>
 </html>
